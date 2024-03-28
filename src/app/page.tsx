@@ -1,8 +1,10 @@
-import React from 'react'
-
+import Home from "@/modules/home/home"
+import Header from "@/shared/widgets/header/header"
 const page =() =>{
   return (
-    <div>page</div>
+    <div>
+      <Header />
+    </div>
   )
 }
 
