@@ -3,8 +3,9 @@ import Banner from "./features/banner";
 const Home  = () => {
   return (
     <div>
-        <Header/> 
+        <Header /> 
         <Banner />
+        <Branding />
     </div>
   )
 }

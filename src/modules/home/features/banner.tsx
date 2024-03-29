@@ -1,5 +1,6 @@
 import React from 'react'
 import Image from 'next/image'
+import { Button } from '@nextui-org/react'
 
 const Banner = () => {
   return (
@@ -37,7 +38,16 @@ const Banner = () => {
                z-10'>
                 THE NEWS LETTER PLATFORM BUILT FOR
                 <span className='font-style'>GROW</span>
-               </h1>
+               </h1><br />
+               <h3 className="text-3xl text-center">
+                Built By Newsletter People
+               </h3><br />
+               <div className="flex w-full justify-center">
+                <Button color = "primary" className="text-xl !p-8">
+                    Get Started
+                </Button>
+               </div><br />
+               <h5 className="text-center text-lg">Start a 30 day free trial</h5>
         </div>
       </div>
     </div>
