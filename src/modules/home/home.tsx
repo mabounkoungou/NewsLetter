@@ -13,7 +13,7 @@ const Home  = () => {
         <Branding />
         <Benefits />
         <FeatureHighLight />
-        <
+        
     </div>
   )
 }
