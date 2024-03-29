@@ -1,11 +1,10 @@
-import Home from "@/modules/home/home"
-import Header from "@/shared/widgets/header/header"
-const page =() =>{
+import Home from "@/modules/home/home";
+const Page =() => {
   return (
     <div>
-      <Header />
+      <Home />
     </div>
-  )
-}
+  );
+};
 
-export default page
+export default Page
